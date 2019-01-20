@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text_style_1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#333</item>
+    </style>
+    <style name="text_style_2">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#b09aff</item>
+    </style>
+    <style name="text_style_3">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#b09aff</item>
+    </style>
+    <style name="text_style_4">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#6e7985</item>
+    </style>
+
+    <style name="text_style_5">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#a2a9b2</item>
+    </style>
+    <style name="text_style_6">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#6e7985</item>
+    </style>
+</resources>

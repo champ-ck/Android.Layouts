@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAFAFA</color>
+    <color name="colorPrimaryDark">#BBBBBB</color>
+    <color name="colorAccent">#a19e9f</color>
+    <color name="textColorWhite">#ffffff</color>
+    <color name="emperor">#514a4f</color>
+    <color name="jade">#00b53d</color>
+    <color name="doveGray">#595357</color>
+    <color name="steelGray">#222326</color>
+    <color name="alabaster">#f7f7f7</color>
+</resources>

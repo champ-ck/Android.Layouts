@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="10dp"
+    android:paddingStart="10dp">
+
+    <TextView
+        style="@style/TitleStyle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/popular" />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/doveGray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/ShuffleStyle1"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:id="@+id/image_cover"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/_1"/>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/image_cover"
+            android:layout_toStartOf="@+id/image_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:ellipsize="end"
+                style="@style/TextStyle2"
+                android:maxLines="1"
+                android:text="@string/mock_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:ellipsize="end"
+                style="@style/TextStyle1"
+                android:maxLines="1"
+                android:text="1 SONG . April 28, 2016"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_setting"
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:src="@drawable/setting_icon" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/doveGray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iamdev.uicourse.SpotifyPlaylistActivity">
+
+    <ImageView
+        android:alpha="10"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imagine_dragons_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:background="#f30d0d0d"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/spotify_playlist_toolbar"
+        layout="@layout/spotify_playlist_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:id="@+id/image_profile_view"
+        layout="@layout/image_profile_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spotify_playlist_toolbar" />
+
+    <include
+        android:id="@+id/content_profile_view"
+        layout="@layout/content_profile_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_profile_view" />
+
+    <include
+        layout="@layout/latest_release_activity"
+        android:id="@+id/latest_release_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content_profile_view"
+        android:layout_marginTop="20dp" />
+
+    <include
+        layout="@layout/popular_release_activity"
+        android:id="@+id/popular_release_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latest_release_activity"
+        android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="searchViewStyle">@style/SearchViewMy</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+    </style>
+
+    <style name="SearchViewMy" parent="Widget.AppCompat.Light.SearchView"/>
+
+    <style name="OverflowMenu" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="overlapAnchor">true</item>
+        <item name="android:dropDownVerticalOffset"> ?attr/actionBarSize </item>
+    </style>
+
+    <style name="TitleStyle1">
+        <item name="android:textColor"> @color/textColorWhite </item>
+        <item name="android:textSize"> 25sp </item>
+    </style>
+
+    <style name="TitleStyle2">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor"> @color/emperor </item>
+        <item name="android:textSize"> 15sp </item>
+    </style>
+
+    <style name="FollowStyle1">
+        <item name="android:textColor"> @color/textColorWhite </item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ShuffleStyle1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor"> @color/textColorWhite </item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextStyle1">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor"> @color/emperor </item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextStyle2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor"> @color/textColorWhite </item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextStyle3">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor"> @color/textColorWhite </item>
+    </style>
+</resources>

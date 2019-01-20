@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/people"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:background="@drawable/spotify_playlist_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/TextStyle3"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/title1" />
+
+        <LinearLayout
+            android:id="@+id/artist"
+            android:layout_below="@+id/textView2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:background="@color/steelGray"
+                android:orientation="vertical"
+                android:layout_width="150dp"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/katy_perry"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp" />
+
+                <TextView
+                    android:padding="5dp"
+                    style="@style/TextStyle3"
+                    android:text="@string/artist2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:background="@color/steelGray"
+                android:orientation="vertical"
+                android:layout_width="150dp"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tgif"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp" />
+
+                <TextView
+                    android:padding="5dp"
+                    style="@style/TextStyle3"
+                    android:text="@string/artist3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:background="@color/steelGray"
+                android:orientation="vertical"
+                android:layout_width="150dp"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/imagine_dragons_avatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp" />
+
+                <TextView
+                    android:padding="5dp"
+                    style="@style/TextStyle3"
+                    android:text="@string/artist1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <include
+            android:layout_below="@+id/artist"
+            android:id="@+id/browse_list1"
+            layout="@layout/spotify_browse_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:layout_below="@+id/browse_list1"
+            android:id="@+id/browse_list2"
+            layout="@layout/spotify_browse_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:layout_below="@+id/browse_list2"
+            android:id="@+id/browse_list3"
+            layout="@layout/spotify_browse_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_below="@+id/browse_list3"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/doveGray"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_name">Alison Dan</string>
+    <string name="hero">Hero</string>
+    <string name="slash">|</string>
+    <string name="point">10 point</string>
+</resources>

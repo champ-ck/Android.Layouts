@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/TitleStyle1"
+        android:gravity="center"
+        android:text="@string/imagine_dragons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/FollowStyle1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_follow"
+        android:text="@string/follow"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        style="@style/TextStyle1"
+        android:textAllCaps="true"
+        android:text="@string/mock_view_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:background="@drawable/button_play_music"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/play_music_button"
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <TextView
+            style="@style/ShuffleStyle1"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/shuffle_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
